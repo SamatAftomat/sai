@@ -1,0 +1,216 @@
+/* Мобильные устройства (до 767px) */
+@media (max-width: 767px) {
+	.container {
+		max-width: 100%;
+		padding: 0 10px;
+	}
+	.header__container {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.header__nav ul {
+		flex-direction: column;
+		margin-top: 10px;
+		padding: 0;
+	}
+	.header__nav li + li {
+		margin-left: 0;
+		margin-top: 10px;
+	}
+	.welcome {
+		padding: 120px 15px;
+		height: auto;
+		min-height: auto;
+	}
+	.welcome__heading {
+		font-size: 36px;
+		margin-bottom: 50px;
+	}
+	.welcome__links > * + * {
+		margin-left: 10px;
+	}
+	.link-primary,
+	.link {
+		padding: 8px 20px;
+		font-size: 14px;
+	}
+	.about__cards,
+	.services-cards {
+		flex-direction: column;
+		gap: 15px;
+		align-items: center;
+	}
+	.card,
+	.services-card {
+		width: 100%;
+		max-width: 320px;
+		padding: 20px;
+	}
+	.services-cards img {
+		width: 100%;
+		height: auto;
+	}
+	.services-card .text-services {
+		width: 100%;
+		margin-left: 0;
+	}
+	.tabs__nav {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.tabs__nav button {
+		margin-bottom: 10px;
+		padding: 8px 15px;
+		font-size: 14px;
+	}
+	.tabs__item h4 {
+		font-size: 24px;
+	}
+	.tabs__desc {
+		padding: 0 10px;
+	}
+	.social-block {
+		max-width: 320px;
+		margin: 0 auto;
+	}
+}
+
+/* Планшеты (768-991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+	.container {
+		max-width: 720px;
+	}
+	.welcome__heading {
+		font-size: 48px;
+	}
+	.card,
+	.services-card {
+		max-width: 280px;
+	}
+	.services-cards img {
+		max-width: 100%;
+	}
+}
+
+/* Большие экраны (992px и выше) */
+@media (min-width: 992px) {
+	.container {
+		max-width: 970px;
+	}
+}
+
+/* Мобильные устройства */
+@media (max-width: 767px) {
+	.container {
+		max-width: 100%;
+		padding: 0 10px;
+	}
+
+	.header__container {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.header__nav ul {
+		flex-direction: column;
+		padding: 0;
+		margin: 10px 0 0 0;
+	}
+	.header__nav li + li {
+		margin-left: 0;
+		margin-top: 10px;
+	}
+
+	.welcome {
+		padding: 120px 15px;
+		min-height: auto;
+		height: auto;
+	}
+	.welcome__heading {
+		font-size: 36px;
+		margin-bottom: 50px;
+	}
+	.welcome__links > * + * {
+		margin-left: 10px;
+	}
+	.link-primary,
+	.link {
+		padding: 8px 20px;
+		font-size: 14px;
+	}
+
+	.about__cards,
+	.services-cards {
+		flex-direction: column;
+		gap: 15px;
+		align-items: center;
+	}
+	.card,
+	.services-card {
+		width: 100%;
+		max-width: 320px;
+		padding: 20px;
+	}
+	.services-cards img {
+		width: 100%;
+		max-width: 100%;
+	}
+	.services-card .text-services {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.tabs__nav {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.tabs__nav button {
+		font-size: 14px;
+		padding: 8px 15px;
+		margin-bottom: 10px;
+	}
+	.tabs__item h4 {
+		font-size: 24px;
+	}
+	.tabs__desc {
+		padding: 0 10px;
+	}
+
+	.social-block {
+		width: 100%;
+		max-width: 320px;
+		margin: 0 auto;
+	}
+}
+
+/* Планшеты */
+@media (min-width: 768px) and (max-width: 991px) {
+	.container {
+		max-width: 720px;
+	}
+	.welcome__heading {
+		font-size: 48px;
+	}
+	.card,
+	.services-card {
+		max-width: 280px;
+	}
+	.services-cards img {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+/* Средние экраны */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.container {
+		max-width: 940px;
+	}
+}
+
+/* Крупные экраны */
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+}

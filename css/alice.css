@@ -1,0 +1,145 @@
+/* Общие медиа-запросы */
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header__nav li + li {
+        margin-left: 20px;
+    }
+    
+    .welcome {
+        padding: 100px 0;
+        min-height: auto;
+    }
+    
+    .welcome__heading {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 15px 0;
+    }
+    
+    .header__nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header__nav li + li {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+    
+    .about__cards, .services-cards {
+        flex-direction: column;
+    }
+    
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .services-cards img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo {
+        font-size: 20px;
+    }
+    
+    .welcome__heading {
+        font-size: 36px;
+    }
+    
+    .card h3 {
+        font-size: 17px;
+    }
+    
+    .card p {
+        font-size: 13px;
+    }
+    
+    .services-card h3 {
+        font-size: 18px;
+    }
+    
+    .tabs__nav button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .welcome {
+        padding: 50px 0;
+    }
+    
+    .welcome__heading {
+        font-size: 30px;
+    }
+    
+    .link-primary, .link {
+        padding: 10px 20px;
+    }
+    
+    .footer__inner {
+        flex-direction: column;
+    }
+    
+    .social-block {
+        width: 100%;
+    }
+}
+
+/* Адаптация для мобильных телефонов */
+@media screen and (max-width: 375px) {
+    .header {
+        padding: 10px 0;
+    }
+    
+    .welcome__heading {
+        font-size: 26px;
+    }
+    
+    .card {
+        padding: 30px 15px 20px;
+    }
+    
+    .tabs__nav button {
+        font-size: 13px;
+    }
+    
+    .footer__copy p {
+        font-size: 14px;
+    }
+}
+
+/* Адаптация для очень маленьких экранов */
+@media screen and (max-width: 320px) {
+    .welcome__heading {
+        font-size: 24px;
+    }
+    
+    .card {
+        padding: 25px 10px 15px;
+    }
+    
+    .tabs__nav button {
+        font-size: 12px;
+    }
+}
